@@ -17,7 +17,7 @@
 #define TANK_COOLDOWN 0.5f
 #define MAX_BUTTONS 100
 #define MAX_GLARES 10
-#define CLOCK_TIME 20 // seconds
+#define CLOCK_TIME 120 // seconds
 #define PORT 6767
 #define PI                                                                     \
   3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067 // 100 digits of pi
@@ -590,6 +590,9 @@ int main() {
             tankX[1] = width - 100; // upper right of screen
             tankY[1] = 100;
             tankA[0] = tankA[1] = 0.f;
+            for (int i = 0; i < MAX_BALLS; i++) {
+              ballState[i] = 0;
+            }
             isTankGreen[1] = false;        // the upper right tank is red
             tankAmmo[0] = tankAmmo[1] = 5; // initial ammo and
             tankCooldown[0] = tankCooldown[1] = 0.1f;
