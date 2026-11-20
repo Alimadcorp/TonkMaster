@@ -30,6 +30,10 @@ Here are the steps on how to build and run this project
 - 26L-0729  Muhammad Hamza
 - 26L-0725  Amaz al Muqtadir
 
+**Division of work**:
+
+Currently we've had one person work for a 2-3 days and then ship their version for the next person to work on.
+
 **Introduction**:
 
 The project aims to develop a local multiplayer tank shooter game. A tank shooter in which each player controls their tank, and fires their cannon. The player to get most kills in a certain time wins!
