@@ -8,7 +8,7 @@ This was basically an assignment posed to us by our university, but a great chan
 
 ## Play
 
-You can download and play this game at https://alimad.itch.io/tonkmaster
+You can download and play this game at https://alimad.itch.io/tankmaster
 
 ## Build & Run
 
